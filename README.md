@@ -48,9 +48,19 @@ This dataset was imported without any changes from the UC Irvine Machine Learnin
 
 The original data was extracted from the Health Facts database, a voluntary program offered to organizations which use the Cerner Electronic Health Record System. Clinical care data was collected from 130 hospitals and integrated delivery networks throughout the U.S., from 1999 - 2008. Only inpatient visits where the patient had diabetes as an existing condition were included. More details on the data selection methodology can be accessed [here](https://www.hindawi.com/journals/bmri/2014/781670/).
 
+The steps in cleaning and pre-processing are, listed in order:
+1. the removal of columns that contained over 50% NA values
+2. the removal of rows wwith Null, Not Mapped, or Not Available entries for demographic columns
+3. the removal of rows whose diagnosis is NA or not numeric
+4. the rearranging of columns to leave all medicines for last 
+5. the shortening of column names for ease of understanding
+6. the creation of two new cleaned dataframes, one for encounters (each visit), and one for patients (the first visit for each recorded patient) 
 
 
-### 3. Analysis
+### 3. Analysis and Jupyter Notebook
+
+The Jupyter notebook is accessible through the repository [here](https://github.com/tapatia/dats6103_p3/blob/main/DATS%206103%20-%20Individual%20Project%203%20-%20Dai%20Wei%20Tsang.ipynb). 
+
 
 
 
