@@ -31,10 +31,22 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### 1. Motivation and Questions
 
+According to the CDC, over 34 million Americans have diabetes, just a little over 1 person among every 10.
+In light of this prevalence, I wanted to answer the following questions:
+
+- Which demographic groups are overrepresented among diabetes patients?
+- What are the diseases that tend to be co-morbid with diabetes?
+- Which demographics have higher morality rates??
+- Is there demographic bias in the care received?
+- Does a longer hospital stay reduce later readmission?
+- What do the records of the "most problematic" patients look like?
 
 
 ### 2. Dataset Source and Cleaning 
 
+This dataset was imported without any changes from the UC Irvine Machine Learning Repository, accessible [here](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008).
+
+The original data was extracted from the Health Facts database, a voluntary program offered to organizations which use the Cerner Electronic Health Record System. Clinical care data was collected from 130 hospitals and integrated delivery networks throughout the U.S., from 1999 - 2008. Only inpatient visits where the patient had diabetes as an existing condition were included. More details on the data selection methodology can be accessed [here](https://www.hindawi.com/journals/bmri/2014/781670/).
 
 
 
@@ -42,11 +54,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 
 
-### 4. Analysis
+### 4. Conclusion
 
 
-
-### 5. Conclusion
 
 
 
